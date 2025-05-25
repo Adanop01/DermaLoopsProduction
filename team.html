@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.2/animation_utility.css">
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+    <title>Pharmed - Our Team</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="sticky-top bg-accent-primary">
+        <div class="r-container">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid ps-3">
+                    <div class="logo-container">
+                        <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered accent-color-2"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto mb-2 mb-xl-0 gap-xl-4 gap-1">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li><a class="dropdown-item active" href="team.html">Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                    <li><a class="dropdown-item" href="service_detail.html">Service Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                                    <li><a class="dropdown-item" href="member.html">Membership</a></li>
+                                    <li><a class="dropdown-item" href="testimonial.html">Testimonials</a></li>
+                                    <li><a class="dropdown-item" href="404.html">404 Error</a></li>
+                                    <li><a class="dropdown-item" href="location.html">Detail Location</a></li>
+                                    <li><a class="dropdown-item" href="blog.html">Last Article</a></li>
+                                    <li><a class="dropdown-item" href="single_blog.html">Single Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="mb-xl-0 mb-3">
+                            <a href="contact.html"
+                                class="btn btn-accent-outline d-flex flex-row rounded-pill gap-2 px-4 py-2">
+                                <span>Get Started</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main>
+        <!-- Banner -->
+        <div class="section position-relative bg-attach-fixed overflow-hidden mx-auto rounded-4"
+            style="background-image: url(image/dummy-img-1920x900.jpg); background-position: top; height: 70vh; max-width: 1770px;">
+            <div class="cta-overlay"></div>
+            <div class="r-container h-100 position-relative" style="z-index: 2;">
+                <div class="d-flex flex-column w-100 h-100 justify-content-center mx-auto align-items-center text-white gap-3"
+                    style="max-width: 895px;">
+                    <h2 class="m-0 text-white">Our Team</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Our Team</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team -->
+        <div class="section">
+            <div class="r-container d-flex flex-column gap-3 align-items-center">
+                <div class="d-flex flex-column gap-3 text-center mx-auto align-items-center scrollanimation animated zoomIn"
+                    style="max-width: 600px;">
+                    <div class="d-flex flex-row gap-2 align-items-center">
+                        <img src="image/cuida_medicine-outline.png" class="img-fluid" alt="">
+                        <h6 class="accent-color m-0">Our Team</h6>
+                    </div>
+                    <h3>Meet Our Certified Healthcare Providers</h3>
+                    <p>With expertise in various medical and pharmacy fields, they prioritize your health, offering
+                        personalized treatments and trusted guidance.</p>
+                </div>
+                <!-- Tab Navigation -->
+                <div id="course-tab" class="tab-container scrollanimation animated fadeInUp">
+                    <div class="tab active" data-course="all">All</div>
+                    <div class="tab" data-course="course2">Pharmacist</div>
+                    <div class="tab" data-course="course3">Medical Laboratory</div>
+                    <div class="tab" data-course="course4">Nurse</div>
+                    <div class="tab" data-course="course5">Administrator</div>
+                </div>
+
+                <!-- Class Cards -->
+                <div class="swiper mySwiper w-100 scrollanimation animated fadeInUp">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide class-course" data-courses="all,course5">
+                            <div class="card class-card card-overlay gap-3">
+                                <div class="card-image overflow-hidden rounded-4 position-relative">
+                                    <img src="image/dummy-img-600x700.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex flex-column gap-2 h-100 w-100 text-white justify-content-end">
+                                            <div class="social-container bg-accent-color py-3 px-2 w-max-content column mb-xl-0 mb-3"
+                                                style="border-bottom-right-radius: 20px;">
+                                                <a href="https://www.facebook.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                                </a>
+                                                <a href="https://www.twitter.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-twitter"></i>
+                                                </a>
+                                                <a href="https://www.instagram.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-instagram"></i>
+                                                </a>
+                                                <a href="https://www.youtube.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer border-0 bg-white position-absolute bottom-0 start-0 end-0 rounded-3"
+                                        style="margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem;">
+                                        <div
+                                            class="d-flex flex-column justify-content-center align-items-center text-center">
+                                            <h5>Dr. Robert Nathan</h5>
+                                            <span class="font-2">Owner</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide class-course" data-courses="all,course2">
+                            <div class="card class-card card-overlay gap-3">
+                                <div class="card-image overflow-hidden rounded-4 position-relative">
+                                    <img src="image/dummy-img-600x700.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex flex-column gap-2 h-100 w-100 text-white justify-content-end">
+                                            <div class="social-container bg-accent-color py-3 px-2 w-max-content column mb-xl-0 mb-3"
+                                                style="border-bottom-right-radius: 20px;">
+                                                <a href="https://www.facebook.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                                </a>
+                                                <a href="https://www.twitter.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-twitter"></i>
+                                                </a>
+                                                <a href="https://www.instagram.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-instagram"></i>
+                                                </a>
+                                                <a href="https://www.youtube.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer border-0 bg-white position-absolute bottom-0 start-0 end-0 rounded-3"
+                                        style="margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem;">
+                                        <div
+                                            class="d-flex flex-column justify-content-center align-items-center text-center">
+                                            <h5>Angela Clay</h5>
+                                            <span class="font-2">Pharmacist</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide class-course" data-courses="all,course3">
+                            <div class="card class-card card-overlay gap-3">
+                                <div class="card-image overflow-hidden rounded-4 position-relative">
+                                    <img src="image/dummy-img-600x700.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex flex-column gap-2 h-100 w-100 text-white justify-content-end">
+                                            <div class="social-container bg-accent-color py-3 px-2 w-max-content column mb-xl-0 mb-3"
+                                                style="border-bottom-right-radius: 20px;">
+                                                <a href="https://www.facebook.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                                </a>
+                                                <a href="https://www.twitter.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-twitter"></i>
+                                                </a>
+                                                <a href="https://www.instagram.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-instagram"></i>
+                                                </a>
+                                                <a href="https://www.youtube.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer border-0 bg-white position-absolute bottom-0 start-0 end-0 rounded-3"
+                                        style="margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem;">
+                                        <div
+                                            class="d-flex flex-column justify-content-center align-items-center text-center">
+                                            <h5>Kenzo Abigail</h5>
+                                            <span class="font-2">Medical Laboratory</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide class-course" data-courses="all,course5">
+                            <div class="card class-card card-overlay gap-3">
+                                <div class="card-image overflow-hidden rounded-4 position-relative">
+                                    <img src="image/dummy-img-600x700.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex flex-column gap-2 h-100 w-100 text-white justify-content-end">
+                                            <div class="social-container bg-accent-color py-3 px-2 w-max-content column mb-xl-0 mb-3"
+                                                style="border-bottom-right-radius: 20px;">
+                                                <a href="https://www.facebook.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                                </a>
+                                                <a href="https://www.twitter.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-twitter"></i>
+                                                </a>
+                                                <a href="https://www.instagram.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-instagram"></i>
+                                                </a>
+                                                <a href="https://www.youtube.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer border-0 bg-white position-absolute bottom-0 start-0 end-0 rounded-3"
+                                        style="margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem;">
+                                        <div
+                                            class="d-flex flex-column justify-content-center align-items-center text-center">
+                                            <h5>Clarine Kitty</h5>
+                                            <span class="font-2">Cashier</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide class-course" data-courses="all,course4">
+                            <div class="card class-card card-overlay gap-3">
+                                <div class="card-image overflow-hidden rounded-4 position-relative">
+                                    <img src="image/dummy-img-600x800.jpg" alt="" class="img-fluid">
+                                    <div class="card-body">
+                                        <div
+                                            class="d-flex flex-column gap-2 h-100 w-100 text-white justify-content-end">
+                                            <div class="social-container bg-accent-color py-3 px-2 w-max-content column mb-xl-0 mb-3"
+                                                style="border-bottom-right-radius: 20px;">
+                                                <a href="https://www.facebook.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                                </a>
+                                                <a href="https://www.twitter.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-twitter"></i>
+                                                </a>
+                                                <a href="https://www.instagram.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-instagram"></i>
+                                                </a>
+                                                <a href="https://www.youtube.com" class="social-item">
+                                                    <i class="fa-brands fa-xs fa-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer border-0 bg-white position-absolute bottom-0 start-0 end-0 rounded-3"
+                                        style="margin-bottom: 1rem; margin-left: 1rem; margin-right: 1rem;">
+                                        <div
+                                            class="d-flex flex-column justify-content-center align-items-center text-center">
+                                            <h5>Andrea Cruis</h5>
+                                            <span class="font-2">Nurse</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar custom-scrollbar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Counter -->
+        <div class="section mx-auto rounded-4 scrollanimation animated fadeInUp"
+            style="background-image: url(image/BG-counter.png); background-size: cover; max-width: 1770px;">
+            <div class="r-container d-flex align-items-center mx-auto justify-content-center">
+                <div class="row row-cols-xl-4 row-cols-1 w-100 align-items-center">
+                    <div class="col">
+                        <h4>Dedicated Support for Your Medication and Wellness</h4>
+                    </div>
+                    <div class="col mb-3 border-end border-1 border-accent">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <div class="d-flex">
+                                <h1 class="number accent-color" data-target="127" data-duration="1000">0</h1>
+                                <h1 class="accent-color">+</h1>
+                            </div>
+                            <h5>Professional Staff</h5>
+                            <p>Our team offers reliable, personalized care to help you achieve optimal health outcomes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col mb-3 border-end border-1 border-accent">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <div class="d-flex">
+                                <h1 class="number accent-color" data-target="2" data-duration="1000">0</h1>
+                                <h1 class="accent-color">K</h1>
+                            </div>
+                            <h5>Active Members</h5>
+                            <p>They are committed to providing ongoing support, ensuring the best possible care.</p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column align-items-center text-center">
+                            <div class="d-flex">
+                                <h1 class="number accent-color" data-target="25" data-duration="1000">0</h1>
+                                <h1 class="accent-color">+</h1>
+                            </div>
+                            <h5>Years Experience</h5>
+                            <p>We leverage our extensive background to deliver accurate advice, trusted medical
+                                services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Why Choose Us -->
+        <div class="section bg-accent" style="padding-bottom: 10rem;">
+            <div class="r-container">
+                <div class="row row-cols-xl-2 row-cols-1">
+                    <div class="col mb-3">
+                        <div class="position-relative pe-xl-5">
+                            <!-- Swiper content (should be at the bottom) -->
+                            <div class="swiper swiperCard" style="z-index: 1;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide p-0 rounded-5 overflow-hidden">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="image/dummy-img-600x800.jpg" class="img-fluid rounded-5 w-100" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide p-0 rounded-5 overflow-hidden">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="image/dummy-img-600x800.jpg" class="img-fluid rounded-5 w-100" alt="image">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide p-0 rounded-5 overflow-hidden">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="image/dummy-img-600x800.jpg" class="img-fluid rounded-5 w-100" alt="image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Navigation arrows (on top of everything) -->
+                            <div class="swiper-button-next" style="z-index: 3;"></div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column gap-3 scrollanimation animated fadeInRight">
+                            <div class="d-flex flex-row gap-2 align-items-center">
+                                <img src="image/cuida_medicine-outline.png" class="img-fluid" alt="">
+                                <h6 class="accent-color m-0">Why Choose Us</h6>
+                            </div>
+                            <h3>Caring for Your Health with Integrity & Excellence</h3>
+                            <p>
+                                At our pharmacy, we are dedicated to providing top-notch healthcare solutions with a
+                                focus on quality, safety, and personalized care.
+                            </p>
+                            <div class="d-flex flex-column gap-4">
+                                <div class="r-progress w-100" style="--value:85;">
+                                    <h5>Priority Customer Support</h5>
+                                    <div class="progress-container mt-2">
+                                        <div class="r-progress-bar percentage-label">
+                                            <div class="progress-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-progress w-100" style="--value:90;">
+                                    <h5>Innovation and Growth</h5>
+                                    <div class="progress-container mt-2">
+                                        <div class="r-progress-bar percentage-label">
+                                            <div class="progress-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-progress w-100" style="--value:88;">
+                                    <h5>Global Community of Wellness</h5>
+                                    <div class="progress-container mt-2">
+                                        <div class="r-progress-bar percentage-label">
+                                            <div class="progress-value"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-xl-2 row-cols-1">
+                                <div class="col mb-3">
+                                    <div
+                                        class="d-flex flex-column gap-1 p-4 bg-accent-color-3 rounded-4 position-relative">
+                                        <h5>Wellness Journey</h5>
+                                        <p>Secure Your Consultation Appointment!</p>
+                                        <a href="" class="link fw-semibold">Make Appointment</a>
+                                        <i class="rtmicon rtmicon-nutritionist position-absolute bottom-0 end-0"
+                                            style="font-size: 78px;"></i>
+                                    </div>
+                                </div>
+                                <div class="col mb-3">
+                                    <div
+                                        class="d-flex flex-column gap-1 p-4 bg-accent-color-3 rounded-4 position-relative">
+                                        <h5>Need Care?</h5>
+                                        <p>We are available 24/7. Call Now for Immediate Assistance!</p>
+                                        <a href="" class="link fw-semibold">0761-8523-398</a>
+                                        <i class="rtmicon rtmicon-classic-phone position-absolute bottom-0 end-0"
+                                            style="font-size: 78px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="section py-5">
+            <div class="d-flex flex-column gap-3 p-5 bg-text-color rounded-4 text-white">
+                <div class="row row-cols-xl-2 row-cols-1 align-items-center">
+                    <div class="col col-xl-8 mb-3">
+                        <div class="d-flex flex-column gap-5">
+                            <img src="image/logo-white.png" alt="" class="img-fluid" width="350">
+                            <p class="text-white" style="max-width: 550px;">
+                                At our pharmaacy, we are dedicated to providing top-notch healthcare solutions with a
+                                focus on quality, safety, and personalized care.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-xl-4 mb-3">
+                        <div class="row row-cols-xl-2 row-cols-1">
+                            <div class="co mb-3">
+                                <div class="d-flex flex-column gap-3">
+                                    <h4>Address</h4>
+                                    <div class="d-flex flex-row font-2 gap-3" style="max-width: 250px;">
+                                        <i class="rtmicon rtmicon-location fs-4"></i>
+                                        <span>KLLG st, No.99, Pku City, ID 28289</span>
+                                    </div>
+                                    <div class="social-container team mb-xl-0 mb-3 gap-2">
+                                        <a href="https://www.facebook.com" class="social-item-3">
+                                            <i class="fa-brands fa-xs fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://www.twitter.com" class="social-item-3">
+                                            <i class="fa-brands fa-xs fa-twitter"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com" class="social-item-3">
+                                            <i class="fa-brands fa-xs fa-instagram"></i>
+                                        </a>
+                                        <a href="https://www.youtube.com" class="social-item-3">
+                                            <i class="fa-brands fa-xs fa-youtube"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <div class="d-flex flex-column gap-3">
+                                    <h4>Contact Us</h4>
+                                    <div class="d-flex flex-column gap-3">
+                                        <div class="d-flex flex-row align-items-center font-2 gap-3">
+                                            <i class="rtmicon rtmicon-classic-phone  fs-4"></i>
+                                            <span>0761-8523-398</span>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center font-2 gap-3">
+                                            <i class="rtmicon rtmicon-envelope fs-4"></i>
+                                            <span>hello@domainsite.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-1 border-light" style="opacity: 1;">
+                <div class="d-flex flex-row gap-2 align-items-center justify-content-between">
+                    <div class="d-flex flex-xl-row flex-column gap-5">
+                        <div>
+                            <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                Home
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                About Us
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                Services
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="link d-flex flex-row gap-3 align-items-center">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+                    <span class="text-white fs-6 font-2">
+                        Copyright © 2024 Rometheme. All Rights Reserved.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+    <script src="js/vendor/fslightbox.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
+</body>
+
+</html>
