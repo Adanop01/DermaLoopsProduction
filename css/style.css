@@ -85,13 +85,13 @@
 /* ---------------------------- */
 :root {
     --primary: #F4F4F4;
-    --text-color: #004551;
+    --text-color: #113788;
     --text-color-2: #5A5A5A;
     --background-color: #FEFEFE;
-    --accent-color: #FF9700;
+    --accent-color: #881137;
     --accent-color-2: #8E8E8E;
-    --accent-color-3: #D9EAED;
-    --accent-color-4: #C8E1E5;
+    --accent-color-3: #cfd7e7;
+    --accent-color-4: #e7ebf3;
     --font-1: "Raleway", sans-serif;
     --font-2: "Nunito", sans-serif;
     --font-3: "Inter", sans-serif;
@@ -936,7 +936,8 @@ a {
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 69, 81, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(17, 55, 136, 0) 0%, rgba(17, 55, 136, 0.6) 100%)
+;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
@@ -946,7 +947,8 @@ a {
     top: 0;
     left: 0;
     position: absolute;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 69, 81, 0.8) 100%)
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -78.74%, #113788 99.63%)
+
 }
 
 .overlay {
@@ -955,7 +957,10 @@ a {
 }
 
 .bg-overlay {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -78.74%, #004551 99.63%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -78.74%, #113788 99.63%)
+
+
+;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -994,7 +999,8 @@ a {
 }
 
 .cta-overlay {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 69, 81, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(17, 55, 136, 0) 0%, rgba(17, 55, 136, 0.6) 100%)
+;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1291,7 +1297,7 @@ a {
 }
 
 .floating-heading {
-    margin-left: -15rem;
+    margin-left: -4rem;
 }
 
 .floating-image {
