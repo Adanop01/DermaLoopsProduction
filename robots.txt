@@ -1,4 +1,10 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
 
 Sitemap: https://www.dermaloops.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1

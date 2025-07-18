@@ -1,126 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<!-- Main Pages -->
 <url>
   <loc>https://www.dermaloops.com/</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>1.00</priority>
+  <priority>1.0</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/about.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.90</priority>
+  <priority>0.9</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/contact.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.90</priority>
+  <priority>0.9</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/faq.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/blog.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/testimonial.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
+  <priority>0.7</priority>
 </url>
 
-<!-- Product Pages -->
 <url>
   <loc>https://www.dermaloops.com/GFCTherapyKIT.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.90</priority>
+  <priority>0.9</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/RegenloopGFC5ml.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/RegenloopGFC10ml.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/RegenloopGFC12ml.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.85</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/prptubes.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.8</priority>
 </url>
 
-<!-- Blog/Content Pages -->
 <url>
   <loc>https://www.dermaloops.com/gfc-therapy-and-its-benefits.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/prp-vs-gfc.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
 </url>
 
 <url>
-  <loc>https://www.dermaloops.com/Myths-About PRP-and-GFC.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <loc>https://www.dermaloops.com/Myths-About%20PRP-and-GFC.html</loc>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/reason-how-hair-fall-treatment-failed.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/the-Science-in-Dermatology.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.75</priority>
 </url>
 
 <url>
   <loc>https://www.dermaloops.com/service_detail.html</loc>
-  <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+  <lastmod>2025-01-18</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
+  <priority>0.7</priority>
 </url>
 
 </urlset>
