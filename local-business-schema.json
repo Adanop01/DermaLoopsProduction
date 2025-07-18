@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "DermaLoops",
+  "image": "https://www.dermaloops.com/image/logo.png",
+  "description": "Advanced dermatological solutions including GFC therapy kits, PRP tubes, and regenerative treatments for hair loss and skin rejuvenation.",
+  "url": "https://www.dermaloops.com",
+  "telephone": "+91-94003-23106",
+  "email": "DermaLoops@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10/275, Naduvakkad, Kinassery Junction, Kannadi 2",
+    "addressLocality": "Palakkad",
+    "addressRegion": "Kerala",
+    "postalCode": "678701",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "10.7867",
+    "longitude": "76.6548"
+  },
+  "openingHours": "Mo-Sa 09:00-18:00",
+  "priceRange": "$$",
+  "category": "Medical Equipment Supplier",
+  "areaServed": {
+    "@type": "State",
+    "name": "Kerala"
+  },
+  "serviceArea": {
+    "@type": "Country",
+    "name": "India"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Dermatology Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "GFC Therapy Kit",
+          "description": "Advanced GFC therapy kit for hair and skin rejuvenation"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "PRP Tubes",
+          "description": "High-quality PRP tubes for regenerative treatments"
+        }
+      }
+    ]
+  },
+  "sameAs": [
+    "https://www.facebook.com/share/15eFVHQdYP/",
+    "https://x.com/dermaloops",
+    "https://www.instagram.com/dermaloops",
+    "https://www.youtube.com/@Dermaloops"
+  ]
+}
