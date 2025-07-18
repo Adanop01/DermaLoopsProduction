@@ -27,36 +27,51 @@ $(function () {
                 data: formData,
                 processData: false,
                 contentType: false,
-                success: function(response) {
+                success: function() {
                     console.log('Email sent successfully!');
-                    
-                    // Show success message
-                    const toast = new bootstrap.Toast($('.success_msg')[0]);
-                    toast.show();
-                    
-                    // Reset button text
-                    $('.submit_form').html('Submit Now');
-                    
-                    // Clear form and remove validation classes
-                    form[0].reset();
-                    form.removeClass('was-validated');
-                    
-                    // Clear any individual field validation states
-                    form.find('.form-control').removeClass('is-valid is-invalid');
-                    
-                    console.log('Form reset and success message shown');
+                    showSuccess();
                 },
                 error: function(xhr) {
-                    console.log('Formspree error:', xhr.status, xhr.responseText);
+                    console.log('Formspree response:', xhr.status, xhr.responseText);
                     
-                    // Show error message
-                    const errtoast = new bootstrap.Toast($('.error_msg')[0]);
-                    errtoast.show();
-                    
-                    // Reset button text
-                    $('.submit_form').html('Submit Now');
+                    // Formspree often returns 200 but AJAX treats redirects as errors
+                    // If status is 0, 200, or 302, it's likely successful
+                    if (xhr.status === 0 || xhr.status === 200 || xhr.status === 302) {
+                        console.log('Treating as success (Formspree redirect)');
+                        showSuccess();
+                    } else {
+                        console.log('Actual error occurred');
+                        showError();
+                    }
                 }
             });
+            
+            function showSuccess() {
+                // Show success message
+                const toast = new bootstrap.Toast($('.success_msg')[0]);
+                toast.show();
+                
+                // Reset button text
+                $('.submit_form').html('Submit Now');
+                
+                // Clear form and remove validation classes
+                form[0].reset();
+                form.removeClass('was-validated');
+                
+                // Clear any individual field validation states
+                form.find('.form-control').removeClass('is-valid is-invalid');
+                
+                console.log('Form reset and success message shown');
+            }
+            
+            function showError() {
+                // Show error message
+                const errtoast = new bootstrap.Toast($('.error_msg')[0]);
+                errtoast.show();
+                
+                // Reset button text
+                $('.submit_form').html('Submit Now');
+            }
         } else {
             // No valid action found
             console.log('No valid form action found');

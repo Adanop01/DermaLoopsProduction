@@ -893,6 +893,23 @@ a {
     color: var(--accent-color);
 }
 
+/* Submit Form Button Styling */
+.submit_form {
+    background-color: var(--accent-color) !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--accent-color) !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.submit_form:hover {
+    background-color: var(--text-color) !important;
+    border-color: var(--text-color) !important;
+    color: var(--primary) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .card .link {
     color: var(--accent-color);
     transition: color 0.5s;
